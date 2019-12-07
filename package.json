@@ -1,0 +1,29 @@
+{
+  "name": "Express_SpotifyApp_Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syhwh/Express_SpotifyApp_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syhwh/Express_SpotifyApp_Backend/issues"
+  },
+  "homepage": "https://github.com/Syhwh/Express_SpotifyApp_Backend#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.14",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
